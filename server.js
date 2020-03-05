@@ -21,6 +21,14 @@ const app = express();
 // Define PORT for the API to run on
 const port = process.env.PORT || 5000;
 
+/*** Middleware ***/
+
+// Add `bodyParser` middleware which will parse JSON requests
+// into JS objects before they reach the route files.
+//
+// The method `.use` sets up middleware for the Express application
+app.use(express.json());
+
 /*** Routes ***/
 
 // Mount imported Routers
@@ -34,11 +42,11 @@ app.listen(port, () => {
 
 /*
 
-  C.U.R.D - Table
+  C.U.R.D - Actions Table
 
   Create          CREATE
   Read
-    Read All      INDEX
+    Read All      INDEX       X
     Read By ID    SHOW
   Update          UPDATE
   Delete          DESTROY
