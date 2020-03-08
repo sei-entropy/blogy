@@ -25,5 +25,33 @@ router.get('/api/articles', (req, res) => {
   });
 });
 
+/**
+ * Action:        SHOW
+ * Method:        GET
+ * URI:           /api/articles/5d664b8b68b4f5092aba18e9
+ * Description:   Get An Article by Article ID
+ */
+
+ /**
+  * Action:       CREATE
+  * Method:       POST
+  * URI:          /api/articles
+  * Description:  Create a new Article
+  */
+
+  /**
+   * Action:      UPDATE
+   * Method:      PATCH
+   * URI:         /api/articles/5d664b8b68b4f5092aba18e9
+   * Description: Update An Article by Article ID
+   */
+
+   /**
+    * Action:       DESTROY
+    * Method:       DELETE
+    * URI:          /api/articles/5d664b8b68b4f5092aba18e9
+    * Description:  Delete An Article by Article ID
+    */
+
 // Export the Router so we can use it in the server.js file
 module.exports = router;

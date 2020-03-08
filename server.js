@@ -34,11 +34,11 @@ app.listen(port, () => {
 
 /*
 
-  C.U.R.D - Table
+  C.U.R.D - Actions Table
 
   Create          CREATE
   Read
-    Read All      INDEX
+    Read All      INDEX       X
     Read By ID    SHOW
   Update          UPDATE
   Delete          DESTROY
