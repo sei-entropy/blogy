@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // Require Route Files
-const indexRouter = require('./routes/index');
+const indexRouter = require('./app/routes/index');
 
 // Instantiate Express Application Object
 const app = express();
